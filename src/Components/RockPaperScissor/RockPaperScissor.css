@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: #f2eaea;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .choices img {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .choices img:hover {
+    transform: scale(1.1);
+  }
+  
+  .result {
+    margin-top: 50px;
+  }
+  
+  .result p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .result h2 {
+    font-size: 24px;
+    color: #f4eeee;
+  }
+  
